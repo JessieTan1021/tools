@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: init-service
+    
+server:
+  port: 90xx
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:  http://localhost:8761/eureka/
+  
